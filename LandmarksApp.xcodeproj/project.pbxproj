@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B76B979C28C0AABD007D2578 /* LandmarksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B979B28C0AABD007D2578 /* LandmarksAppApp.swift */; };
+		B76B979C28C0AABD007D2578 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B979B28C0AABD007D2578 /* LandmarksApp.swift */; };
 		B76B979E28C0AABD007D2578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B979D28C0AABD007D2578 /* ContentView.swift */; };
 		B76B97A028C0AABD007D2578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76B979F28C0AABD007D2578 /* Assets.xcassets */; };
 		B76B97A328C0AABD007D2578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76B97A228C0AABD007D2578 /* Preview Assets.xcassets */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		B76B979828C0AABD007D2578 /* LandmarksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B76B979B28C0AABD007D2578 /* LandmarksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksAppApp.swift; sourceTree = "<group>"; };
+		B76B979B28C0AABD007D2578 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		B76B979D28C0AABD007D2578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B76B979F28C0AABD007D2578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76B97A228C0AABD007D2578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		B76B979A28C0AABD007D2578 /* LandmarksApp */ = {
 			isa = PBXGroup;
 			children = (
-				B76B979B28C0AABD007D2578 /* LandmarksAppApp.swift */,
+				B76B979B28C0AABD007D2578 /* LandmarksApp.swift */,
 				B76B97B328C0C285007D2578 /* Views */,
 				B76B97B428C0C299007D2578 /* Model */,
 				B76B97B528C0C2A5007D2578 /* Resources */,
@@ -188,7 +188,7 @@
 			files = (
 				B76B979E28C0AABD007D2578 /* ContentView.swift in Sources */,
 				B76B97AC28C0BB25007D2578 /* MapView.swift in Sources */,
-				B76B979C28C0AABD007D2578 /* LandmarksAppApp.swift in Sources */,
+				B76B979C28C0AABD007D2578 /* LandmarksApp.swift in Sources */,
 				B76B97B928C0E2C2007D2578 /* LandmarkList.swift in Sources */,
 				B76B97BB28C0E96D007D2578 /* LandmarkDetail.swift in Sources */,
 				B76B97AA28C0AAD6007D2578 /* CircleImage.swift in Sources */,
