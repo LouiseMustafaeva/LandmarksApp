@@ -118,9 +118,9 @@
 		B76B97B328C0C285007D2578 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B76B979D28C0AABD007D2578 /* ContentView.swift */,
 				B76B97DA28C3703C007D2578 /* Categories */,
 				B76B97D128C35390007D2578 /* Hikes */,
-				B76B979D28C0AABD007D2578 /* ContentView.swift */,
 				B76B97BF28C21D70007D2578 /* Landmarks */,
 				B76B97CA28C34DBD007D2578 /* Badges */,
 				B76B97BE28C21D4D007D2578 /* Helpers */,
