@@ -10,23 +10,25 @@ import SwiftUI
 struct HikeView: View {
     var hike: Hike
     @State private var showDetail = false
-
+    
     var body: some View {
         VStack {
             HStack {
                 HikeGraph(hike: hike, path: \.elevation)
                     .frame(width: 50, height: 30)
-
+                
                 VStack(alignment: .leading) {
                     Text(hike.name)
                         .font(.headline)
                     Text(hike.distanceText)
                 }
-
+                
                 Spacer()
-
+                
                 Button {
-                    showDetail.toggle()
+                    withAnimation {
+                        showDetail.toggle()
+                    }
                 } label: {
                     Label("Graph", systemImage: "chevron.right.circle")
                         .labelStyle(.iconOnly)
@@ -36,7 +38,7 @@ struct HikeView: View {
                         .padding()
                 }
             }
-
+            
             if showDetail {
                 HikeDetail(hike: hike)
             }
